@@ -1,4 +1,4 @@
-# C-
+# C++
 Assignments done in C++
 In this program, a random speed limit is generated between 25 and 65
 The user is then prompted to enter a speed for the driver

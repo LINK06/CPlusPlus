@@ -80,7 +80,7 @@ bool isFined(int g, int a) {
 		return Ticket2;
 	}
 	//Price if speed was more than 20 than the speed limit
-	else if (g > (a + 20)) {
+	else if (g >= (a + 20)) {
 		double Ticket3 = BaseTicket + (BaseTicket * .2);
 		cout << setprecision(2) << fixed;
 		cout << "Thee speeding fine is: $" << Ticket3 << endl;
